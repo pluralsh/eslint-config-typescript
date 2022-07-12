@@ -1,0 +1,45 @@
+{
+  "name": "eslint-config-pluralsh-typescript",
+  "version": "1.0.0",
+  "description": "A modern eslint typescript configuration",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pluralsh/eslint-config-pluralsh-typescript.git"
+  },
+  "keywords": [
+    "eslint",
+    "typescript"
+  ],
+  "author": "Plural (https://plural.sh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pluralsh/eslint-config-pluralsh-typescript/issues"
+  },
+  "homepage": "https://github.com/pluralsh/eslint-config-pluralsh-typescript#readme",
+  "peerDependencies": {
+    "eslint": ">= 8.19.0",
+    "eslint-plugin-import": ">= 2.26.0",
+    "eslint-plugin-jsx-a11y": ">= 6.5.1",
+    "eslint-plugin-react": ">= 7.29.4",
+    "eslint-plugin-react-hooks": ">= 4.4.0",
+    "typescript": ">= 4.7.4"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "5.30.6",
+    "@typescript-eslint/parser": "5.30.6",
+    "eslint": "8.19.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-airbnb-typescript": "17.0.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-react": "7.29.4",
+    "eslint-plugin-react-hooks": "4.4.0",
+    "semver": "7.3.7",
+    "typescript": "4.7.4"
+  }
+}
