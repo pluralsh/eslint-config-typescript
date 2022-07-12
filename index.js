@@ -1,7 +1,6 @@
 module.exports = {
   root: true,
 
-  /** TS & TSX Configuration * */
   settings: {
     // Allow importing more file types
     'import/resolver': {
