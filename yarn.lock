@@ -86,9 +86,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pluralsh/eslint-config-pluralsh-typescript@workspace:.":
+"@pluralsh/eslint-config-typescript@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@pluralsh/eslint-config-pluralsh-typescript@workspace:."
+  resolution: "@pluralsh/eslint-config-typescript@workspace:."
   dependencies:
     "@typescript-eslint/eslint-plugin": 5.30.6
     "@typescript-eslint/parser": 5.30.6
