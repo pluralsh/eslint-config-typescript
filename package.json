@@ -1,16 +1,16 @@
 {
-  "name": "@pluralsh/eslint-config-pluralsh-typescript",
-  "version": "1.2.0",
+  "name": "@pluralsh/eslint-config-typescript",
+  "version": "1.0.0",
   "description": "A modern eslint typescript configuration",
   "author": "Plural (https://plural.sh)",
   "license": "MIT",
-  "homepage": "https://github.com/pluralsh/eslint-config-pluralsh-typescript#readme",
+  "homepage": "https://github.com/pluralsh/eslint-config-typescript#readme",
   "bugs": {
-    "url": "https://github.com/pluralsh/eslint-config-pluralsh-typescript/issues"
+    "url": "https://github.com/pluralsh/eslint-config-typescript/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pluralsh/eslint-config-pluralsh-typescript.git"
+    "url": "git+https://github.com/pluralsh/eslint-config-typescript.git"
   },
   "keywords": [
     "eslint",
