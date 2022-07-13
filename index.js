@@ -16,9 +16,7 @@ module.exports = {
 
   extends: ['airbnb', 'airbnb-typescript', 'plugin:react/jsx-runtime'],
   parser: '@typescript-eslint/parser',
-  parserOptions: {
-    project: './tsconfig.json',
-  },
+  parserOptions: { project: './tsconfig.json' },
 
   env: {
     browser: true,
@@ -27,6 +25,8 @@ module.exports = {
   },
 
   rules: {
+    '@typescript-eslint/no-use-before-define': ['error', { functions: false }],
+    'object-curly-newline': ['error', { multiline: true }],
     'import/extensions': 'off',
   },
 };
