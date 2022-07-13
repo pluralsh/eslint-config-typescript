@@ -2,8 +2,8 @@ name: 'Bump & Publish'
 
 on:
   push:
-    paths:
-    - '*.js'
+#    paths:
+#    - '*.js'
     branches:
     - 'master'
 
