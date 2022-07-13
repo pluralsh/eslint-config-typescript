@@ -15,7 +15,6 @@ module.exports = {
   },
 
   extends: ['airbnb', 'airbnb-typescript', 'plugin:react/jsx-runtime'],
-
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: './tsconfig.json',
