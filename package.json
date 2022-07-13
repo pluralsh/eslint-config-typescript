@@ -4,10 +4,10 @@
   "description": "A modern eslint typescript configuration",
   "author": "Plural (https://plural.sh)",
   "license": "MIT",
+  "homepage": "https://github.com/pluralsh/eslint-config-pluralsh-typescript#readme",
   "bugs": {
     "url": "https://github.com/pluralsh/eslint-config-pluralsh-typescript/issues"
   },
-  "homepage": "https://github.com/pluralsh/eslint-config-pluralsh-typescript#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pluralsh/eslint-config-pluralsh-typescript.git"
