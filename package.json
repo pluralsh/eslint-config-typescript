@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-pluralsh-typescript",
+  "name": "@pluralsh/eslint-config-pluralsh-typescript",
   "version": "1.0.0",
   "description": "A modern eslint typescript configuration",
   "main": "index.js",

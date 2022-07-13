@@ -1,0 +1,39 @@
+name: 'Bump & Publish'
+
+on:
+  push:
+    branches:
+    - 'master'
+
+jobs:
+  bump:
+    name: 'Bump Version'
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 'Checkout'
+      uses: 'actions/checkout@v3'
+    - name: 'Bump, Commit and Tag'
+      uses: phips28/gh-action-bump-version@v9.0.25
+      with:
+        tag-prefix: 'v'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  publish:
+    name: 'Publish Package'
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 'Checkout'
+      uses: 'actions/checkout@v3'
+    - name: 'Publish'
+      uses: actions/setup-node@v3
+        with:
+          node-version: 16
+    - run: yarn install --immutable
+    - run: yarn publish --access public
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+
