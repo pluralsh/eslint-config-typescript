@@ -2,6 +2,8 @@ name: 'Bump & Publish'
 
 on:
   push:
+    paths:
+    - '*.js'
     branches:
     - 'master'
 
@@ -32,7 +34,7 @@ jobs:
       with:
         node-version: 16
     - run: yarn install --immutable
-    - run: yarn npm publish --access public
+    - run: npm publish --access public
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
