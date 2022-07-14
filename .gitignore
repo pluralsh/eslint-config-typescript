@@ -6,6 +6,7 @@
 yarn-error.log
 .pnp.*
 .yarn/*
+node_modules
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
