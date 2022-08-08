@@ -33,8 +33,8 @@ module.exports = {
     '@typescript-eslint',
   ],
   rules: {
-    'react/require-default-props': 'off',
     'react/jsx-no-bind': 'off',
+    'react/require-default-props': 'off',
     'react/destructuring-assignment': 'off',
     'no-unused-vars': 'off',
     'import/no-unresolved': 'off',
