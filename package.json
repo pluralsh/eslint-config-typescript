@@ -19,7 +19,7 @@
     "pluralsh"
   ],
   "main": "index.js",
-  "packageManager": "yarn@3.2.1",
+  "packageManager": "yarn@3.2.4",
   "dependencies": {
     "@babel/core": "^7.19.6",
     "@babel/eslint-parser": "^7.19.1",
