@@ -19,10 +19,6 @@ jobs:
       with:
         fetch-depth: 0
         token: ${{ secrets.PLURAL_BOT_PAT }}
-    # - name: 'Configure Git User'
-    #   run: |
-    #     git config --local user.email "github-actions[bot]@users.noreply.github.com"
-    #     git config --local user.name "github-actions[bot]"
     - name: 'Setup Node'
       uses: actions/setup-node@v3
       with:
@@ -36,21 +32,4 @@ jobs:
         dry_run: true
       env:
         GITHUB_TOKEN: ${{ secrets.PLURAL_BOT_PAT }}
-        # NPM_TOKEN: ${{ secrets.NPM_TOKEN_TEST }}
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN_TEST }}
-    # - name: 'Bump Minor'
-    #   run: npm version minor
-    # - name: 'Push Commit & Tag'
-    #   uses: ad-m/github-push-action@v0.6.0
-    #   with:
-    #     github_token: ${{ secrets.GITHUB_TOKEN }}
-    #     branch: ${{ github.ref }}
-    #     tags: true
-    # - name: 'Install Dependencies'
-    #   run: yarn install --immutable
-    # - name: 'Publish Package'
-    #   run: npm publish --access public
-    #   env:
-    #     NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-
