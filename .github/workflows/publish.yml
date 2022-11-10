@@ -4,6 +4,10 @@ on:
   push:
     paths:
     - '*.js'
+    - 'package.json'
+    - 'yarn.lock'
+    - '.github/workflows/publish.yml'
+    - '.releaserc'
     branches:
     - 'main'
   workflow_dispatch:
