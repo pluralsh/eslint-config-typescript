@@ -19,6 +19,9 @@
     "pluralsh"
   ],
   "main": "index.js",
+  "engines": {
+    "node": "16.15.0"
+  },
   "packageManager": "yarn@3.2.4",
   "dependencies": {
     "@babel/core": "^7.19.6",
