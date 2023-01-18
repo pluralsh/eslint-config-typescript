@@ -1836,18 +1836,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pluralsh/eslint-config-pluralsh@npm:1.4.11":
-  version: 1.4.11
-  resolution: "@pluralsh/eslint-config-pluralsh@npm:1.4.11"
+"@pluralsh/eslint-config-pluralsh@npm:1.4.12":
+  version: 1.4.12
+  resolution: "@pluralsh/eslint-config-pluralsh@npm:1.4.12"
   dependencies:
     eslint: 8.32.0
     eslint-config-airbnb: 19.0.4
-    eslint-plugin-import: 2.27.4
+    eslint-plugin-import: 2.27.5
     eslint-plugin-import-newlines: ^1.2.3
     eslint-plugin-jsx-a11y: 6.7.1
     eslint-plugin-react: 7.32.0
     eslint-plugin-react-hooks: 4.6.0
-  checksum: ea4f3ba4f39928de2743f913d56475bbff4badbb79ab7ee480e5b0a4bd9b242cb48d1427fd92949bef816b1a65f1171e040d424b37281506893ed867f86d48d6
+  checksum: e5d5cb48a33b79c9db817d663e4bb4f0e2c603abfa26adb88a2cb0a25da4ec9ba554fd94e042039adeafade163f4643f1bec7f20134173729de378a6f2f18568
   languageName: node
   linkType: hard
 
@@ -1859,7 +1859,7 @@ __metadata:
     "@babel/eslint-parser": 7.19.1
     "@babel/preset-env": 7.20.2
     "@babel/preset-react": 7.18.6
-    "@pluralsh/eslint-config-pluralsh": 1.4.11
+    "@pluralsh/eslint-config-pluralsh": 1.4.12
     "@types/node": 18.11.18
     "@typescript-eslint/eslint-plugin": 5.48.2
     "@typescript-eslint/parser": 5.48.2
@@ -2132,7 +2132,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"array.prototype.flatmap@npm:^1.3.0, array.prototype.flatmap@npm:^1.3.1":
+"array.prototype.flatmap@npm:^1.3.1":
   version: 1.3.1
   resolution: "array.prototype.flatmap@npm:1.3.1"
   dependencies:
@@ -2708,13 +2708,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:2.27.4":
-  version: 2.27.4
-  resolution: "eslint-plugin-import@npm:2.27.4"
+"eslint-plugin-import@npm:2.27.5":
+  version: 2.27.5
+  resolution: "eslint-plugin-import@npm:2.27.5"
   dependencies:
     array-includes: ^3.1.6
     array.prototype.flat: ^1.3.1
-    array.prototype.flatmap: ^1.3.0
+    array.prototype.flatmap: ^1.3.1
     debug: ^3.2.7
     doctrine: ^2.1.0
     eslint-import-resolver-node: ^0.3.7
@@ -2729,7 +2729,7 @@ __metadata:
     tsconfig-paths: ^3.14.1
   peerDependencies:
     eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8
-  checksum: e298a9b1fde6d86737520c7da1d851d1facbf1883e29eddfd374a813eb05a647108c072d5c852b6bf535886c435a419f2fee1d6ae3a324d6f7877d957a796e37
+  checksum: f500571a380167e25d72a4d925ef9a7aae8899eada57653e5f3051ec3d3c16d08271fcefe41a30a9a2f4fefc232f066253673ee4ea77b30dba65ae173dade85d
   languageName: node
   linkType: hard
 
