@@ -1691,9 +1691,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pluralsh/eslint-config-pluralsh@npm:1.4.17":
-  version: 1.4.17
-  resolution: "@pluralsh/eslint-config-pluralsh@npm:1.4.17"
+"@pluralsh/eslint-config-pluralsh@npm:1.4.18":
+  version: 1.4.18
+  resolution: "@pluralsh/eslint-config-pluralsh@npm:1.4.18"
   dependencies:
     eslint: 8.44.0
     eslint-config-airbnb: 19.0.4
@@ -1702,7 +1702,7 @@ __metadata:
     eslint-plugin-jsx-a11y: 6.7.1
     eslint-plugin-react: 7.32.2
     eslint-plugin-react-hooks: 4.6.0
-  checksum: 1b3f8399ce1eff2f9807104915707bd006a9848bcfff005e7a74a256facddc22f6f26b64085c28545687c8f0f64e3b846f54284e2cddaaa040687086f12b5b36
+  checksum: 12b514e0b4025c4a0440105dea1eb393275634cc7922549c57f027e9ac3a50a8afa446c49ea5b109304660f5cfa4021374f0dcd2e5bb372b97cdf8594cc2d14a
   languageName: node
   linkType: hard
 
@@ -1714,7 +1714,7 @@ __metadata:
     "@babel/eslint-parser": 7.22.5
     "@babel/preset-env": 7.22.5
     "@babel/preset-react": 7.22.5
-    "@pluralsh/eslint-config-pluralsh": 1.4.17
+    "@pluralsh/eslint-config-pluralsh": 1.4.18
     "@types/node": 18.16.19
     "@typescript-eslint/eslint-plugin": 5.61.0
     "@typescript-eslint/parser": 5.61.0
