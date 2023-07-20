@@ -1823,18 +1823,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pluralsh/eslint-config-pluralsh@npm:1.4.19":
-  version: 1.4.19
-  resolution: "@pluralsh/eslint-config-pluralsh@npm:1.4.19"
+"@pluralsh/eslint-config-pluralsh@npm:1.4.20":
+  version: 1.4.20
+  resolution: "@pluralsh/eslint-config-pluralsh@npm:1.4.20"
   dependencies:
     eslint: 8.45.0
     eslint-config-airbnb: 19.0.4
     eslint-plugin-import: 2.27.5
     eslint-plugin-import-newlines: ^1.2.3
     eslint-plugin-jsx-a11y: 6.7.1
-    eslint-plugin-react: 7.32.2
+    eslint-plugin-react: 7.33.0
     eslint-plugin-react-hooks: 4.6.0
-  checksum: 304c94db3e6f93770bd3c1bdd8f5ed13d45aa343f480c56703f5e490d7837408621db51e6b9929de6e61c93a005d1702c4e82c9a1412bcf73aad76fd486cca85
+  checksum: b381ceb2013edd95adaa5f507e0ddd572a280d3337ca5500874a95117538157adb21607d875d8c25b04b9a72b8b2bb7101fd838a259907ed0739b7e75ed88c5d
   languageName: node
   linkType: hard
 
@@ -1846,7 +1846,7 @@ __metadata:
     "@babel/eslint-parser": 7.22.9
     "@babel/preset-env": 7.22.9
     "@babel/preset-react": 7.22.5
-    "@pluralsh/eslint-config-pluralsh": 1.4.19
+    "@pluralsh/eslint-config-pluralsh": 1.4.20
     "@types/node": 18.16.19
     "@typescript-eslint/eslint-plugin": 5.62.0
     "@typescript-eslint/parser": 5.62.0
@@ -2792,9 +2792,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:7.32.2":
-  version: 7.32.2
-  resolution: "eslint-plugin-react@npm:7.32.2"
+"eslint-plugin-react@npm:7.33.0":
+  version: 7.33.0
+  resolution: "eslint-plugin-react@npm:7.33.0"
   dependencies:
     array-includes: ^3.1.6
     array.prototype.flatmap: ^1.3.1
@@ -2809,11 +2809,11 @@ __metadata:
     object.values: ^1.1.6
     prop-types: ^15.8.1
     resolve: ^2.0.0-next.4
-    semver: ^6.3.0
+    semver: ^6.3.1
     string.prototype.matchall: ^4.0.8
   peerDependencies:
     eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
-  checksum: 2232b3b8945aa50b7773919c15cd96892acf35d2f82503667a79e2f55def90f728ed4f0e496f0f157acbe1bd4397c5615b676ae7428fe84488a544ca53feb944
+  checksum: f3ce2978322efd3c698b802dabfad070109dd1935c4e468545992b82b5fb8257ea3ad56732330bb46643182a09560129a259b436952b3e2aa426947d3abd2b1a
   languageName: node
   linkType: hard
 
