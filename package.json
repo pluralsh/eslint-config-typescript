@@ -28,7 +28,7 @@
     "@babel/eslint-parser": "7.22.10",
     "@babel/preset-env": "7.22.10",
     "@babel/preset-react": "7.22.5",
-    "@pluralsh/eslint-config-pluralsh": "1.4.25",
+    "@pluralsh/eslint-config-pluralsh": "1.4.26",
     "@types/node": "18.17.6",
     "@typescript-eslint/eslint-plugin": "5.62.0",
     "@typescript-eslint/parser": "5.62.0",
