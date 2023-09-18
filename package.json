@@ -20,7 +20,7 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": "18.17.1"
+    "node": "18.18.0"
   },
   "packageManager": "yarn@3.6.3",
   "dependencies": {
