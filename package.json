@@ -25,9 +25,9 @@
   "packageManager": "yarn@3.6.4",
   "dependencies": {
     "@babel/core": "7.23.3",
-    "@babel/eslint-parser": "7.22.15",
+    "@babel/eslint-parser": "7.23.3",
     "@babel/preset-env": "7.23.3",
-    "@babel/preset-react": "7.22.15",
+    "@babel/preset-react": "7.23.3",
     "@pluralsh/eslint-config-pluralsh": "1.4.34",
     "@types/node": "18.18.9",
     "@typescript-eslint/eslint-plugin": "6.10.0",
