@@ -1952,7 +1952,7 @@ __metadata:
     "@babel/preset-env": 7.23.3
     "@babel/preset-react": 7.23.3
     "@pluralsh/eslint-config-pluralsh": 1.4.35
-    "@types/node": 18.18.11
+    "@types/node": 18.18.12
     "@typescript-eslint/eslint-plugin": 6.12.0
     "@typescript-eslint/parser": 6.12.0
     conventional-changelog-conventionalcommits: 6.1.0
@@ -1975,12 +1975,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.18.11":
-  version: 18.18.11
-  resolution: "@types/node@npm:18.18.11"
+"@types/node@npm:18.18.12":
+  version: 18.18.12
+  resolution: "@types/node@npm:18.18.12"
   dependencies:
     undici-types: ~5.26.4
-  checksum: e4c2c5b792023c86248013589820d157ced46a35dcd60b15a3133a8f67f6b54c8870f245ecccbe7a12c49f1991ea84401946ddbb3f44894ec042642233e616d5
+  checksum: 59bb2e94b096761647fe70c79a3134f4d5f6017a493884beeeb525a9047c055db41dc5b0deb91e92160891cb84290f4da8a8ab4cc037f5341ec6ad48eb24ce10
   languageName: node
   linkType: hard
 
