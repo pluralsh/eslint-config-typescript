@@ -24,9 +24,9 @@
   },
   "packageManager": "yarn@3.7.0",
   "dependencies": {
-    "@babel/core": "7.23.3",
+    "@babel/core": "7.23.5",
     "@babel/eslint-parser": "7.23.3",
-    "@babel/preset-env": "7.23.3",
+    "@babel/preset-env": "7.23.5",
     "@babel/preset-react": "7.23.3",
     "@pluralsh/eslint-config-pluralsh": "1.4.35",
     "@types/node": "18.18.13",
