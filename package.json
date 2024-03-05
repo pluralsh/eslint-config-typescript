@@ -22,7 +22,7 @@
   "engines": {
     "node": "18.19.1"
   },
-  "packageManager": "yarn@3.8.0",
+  "packageManager": "yarn@3.8.1",
   "dependencies": {
     "@babel/core": "7.24.0",
     "@babel/eslint-parser": "7.23.10",
