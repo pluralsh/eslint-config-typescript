@@ -70,9 +70,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/eslint-parser@npm:7.25.9":
-  version: 7.25.9
-  resolution: "@babel/eslint-parser@npm:7.25.9"
+"@babel/eslint-parser@npm:7.26.5":
+  version: 7.26.5
+  resolution: "@babel/eslint-parser@npm:7.26.5"
   dependencies:
     "@nicolo-ribaudo/eslint-scope-5-internals": 5.1.1-v1
     eslint-visitor-keys: ^2.1.0
@@ -80,7 +80,7 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.11.0
     eslint: ^7.5.0 || ^8.0.0 || ^9.0.0
-  checksum: dd2afa122b62a5b07c1e71d1c23b2cd4d655d96609eb2ba1b1ae3ec6f415f4365b77d6669ff859aa7b75952fb63a1d29c5db6e5811fc4012841491cb2dee36e4
+  checksum: 3ed969eabc940aa29a2e5bef525674b47ebccb8dfe686737e84fed2b09fbf4bd23c2503936ed340bde2a870fc1917668ec7ab357b97bab504aceb84e9608d213
   languageName: node
   linkType: hard
 
@@ -1244,9 +1244,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-react@npm:7.25.9":
-  version: 7.25.9
-  resolution: "@babel/preset-react@npm:7.25.9"
+"@babel/preset-react@npm:7.26.3":
+  version: 7.26.3
+  resolution: "@babel/preset-react@npm:7.26.3"
   dependencies:
     "@babel/helper-plugin-utils": ^7.25.9
     "@babel/helper-validator-option": ^7.25.9
@@ -1256,7 +1256,7 @@ __metadata:
     "@babel/plugin-transform-react-pure-annotations": ^7.25.9
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: b5650c07a744ab4024c04fae002c9043235b4ad8687de8bf759135b9c6186553f4f53fde0a4583ce4c019560b79c176f39c745cdf77645af07071d26d8ba84ce
+  checksum: 9c76f145026715c8e4a1f6c44f208918e700227d8d8a8068f4ae10d87031d23eb8b483e508cd4452d65066f731b7a8169527e66e83ffe165595e8db7899dd859
   languageName: node
   linkType: hard
 
@@ -1549,9 +1549,9 @@ __metadata:
   resolution: "@pluralsh/eslint-config-typescript@workspace:."
   dependencies:
     "@babel/core": 7.26.0
-    "@babel/eslint-parser": 7.25.9
+    "@babel/eslint-parser": 7.26.5
     "@babel/preset-env": 7.26.0
-    "@babel/preset-react": 7.25.9
+    "@babel/preset-react": 7.26.3
     "@pluralsh/eslint-config-pluralsh": 1.4.44
     "@types/node": 18.19.26
     "@typescript-eslint/eslint-plugin": 6.21.0
