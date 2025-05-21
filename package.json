@@ -20,7 +20,7 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": "18.20.8"
+    "node": "22.16.0"
   },
   "packageManager": "yarn@3.8.1",
   "dependencies": {
@@ -29,7 +29,7 @@
     "@babel/preset-env": "7.27.2",
     "@babel/preset-react": "7.27.1",
     "@pluralsh/eslint-config-pluralsh": "1.4.46",
-    "@types/node": "18.19.26",
+    "@types/node": "22.15.21",
     "@typescript-eslint/eslint-plugin": "6.21.0",
     "@typescript-eslint/parser": "6.21.0",
     "eslint": "8.57.1",
